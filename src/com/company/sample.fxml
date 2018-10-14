@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="589.0" prefWidth="787.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.Controller">
+   <children>
+      <MenuBar layoutX="14.0" layoutY="2.0" prefHeight="25.0" prefWidth="762.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#doNew" text="New file" />
+                  <MenuItem mnemonicParsing="false" onAction="#doOpen_F" text="Open F_Function" />
+                  <MenuItem mnemonicParsing="false" onAction="#doOpen_G" text="Open G_Function" />
+                  <MenuItem mnemonicParsing="false" onAction="#doSave" text="Save" />
+              <MenuItem mnemonicParsing="false" onAction="#doClose" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#addFunc_F" text="Add point of F_Function" />
+                  <MenuItem mnemonicParsing="false" onAction="#addFunc_G" text="Add point of G_Function" />
+                  <MenuItem mnemonicParsing="false" onAction="#doDelete_F" text="Delete last point of F_Function" />
+              <MenuItem mnemonicParsing="false" onAction="#doDelete_G" text="Delete last point of G_Function" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#doAbout" text="About the program" />
+              <MenuItem mnemonicParsing="false" onAction="#doHelpProg" text="Help in the program" />
+                  <MenuItem mnemonicParsing="false" onAction="#myReport" text="Program report" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <TableView fx:id="firstColumn" editable="true" layoutX="575.0" layoutY="54.0" prefHeight="352.0" prefWidth="96.0">
+        <columns>
+          <TableColumn fx:id="firstTableX" prefWidth="51.0" text="X" />
+          <TableColumn fx:id="firstTableY" minWidth="9.0" prefWidth="44.0" text="Y" />
+        </columns>
+      </TableView>
+      <TableView fx:id="secondColumn" editable="true" layoutX="671.0" layoutY="54.0" prefHeight="352.0" prefWidth="96.0">
+        <columns>
+          <TableColumn fx:id="secondTableX" prefWidth="47.0" text="X" />
+          <TableColumn fx:id="secondTableY" prefWidth="48.0" text="Y" />
+        </columns>
+      </TableView>
+      <Label layoutX="595.0" layoutY="36.0" text="F_Function" />
+      <Label layoutX="703.0" layoutY="36.0" text="G_Function" />
+      <LineChart fx:id="lineChart" layoutY="24.0" prefHeight="526.0" prefWidth="574.0" title="f(x) - g(x) -&gt; max">
+        <xAxis>
+          <NumberAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <TextField fx:id="fieldA" layoutX="675.0" layoutY="415.0" prefHeight="25.0" prefWidth="96.0" />
+      <TextField fx:id="fieldB" layoutX="675.0" layoutY="452.0" prefHeight="25.0" prefWidth="96.0" />
+      <TextField fx:id="fildEps" layoutX="675.0" layoutY="489.0" prefHeight="25.0" prefWidth="96.0" />
+      <Button layoutX="585.0" layoutY="530.0" mnemonicParsing="false" onAction="#BuildFunc" text="Build graphs" />
+      <Button layoutX="682.0" layoutY="530.0" mnemonicParsing="false" onAction="#clear" prefHeight="25.0" prefWidth="83.0" text="Clear" />
+      <Button layoutX="199.0" layoutY="556.0" mnemonicParsing="false" onAction="#maxFunc" text="Max Function" />
+      <TextField fx:id="fieldMax" layoutX="318.0" layoutY="556.0" prefHeight="25.0" prefWidth="88.0" />
+      <Label layoutX="595.0" layoutY="419.0" prefHeight="17.0" prefWidth="70.0" text="left border">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="591.0" layoutY="456.0" prefHeight="17.0" prefWidth="83.0" text="right border">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="604.0" layoutY="493.0" text="Eps" />
+   </children>
+</AnchorPane>

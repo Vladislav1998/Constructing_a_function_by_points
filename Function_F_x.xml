@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Function_F_x>
+    <x>
+        <ax>-10.0</ax>
+        <ax>-8.0</ax>
+        <ax>-6.0</ax>
+        <ax>-4.0</ax>
+        <ax>-2.0</ax>
+        <ax>0.0</ax>
+        <ax>2.0</ax>
+        <ax>4.0</ax>
+        <ax>6.0</ax>
+        <ax>8.0</ax>
+        <ax>10.0</ax>
+    </x>
+    <y>
+        <ay>100.0</ay>
+        <ay>64.0</ay>
+        <ay>36.0</ay>
+        <ay>16.0</ay>
+        <ay>4.0</ay>
+        <ay>0.0</ay>
+        <ay>4.0</ay>
+        <ay>16.0</ay>
+        <ay>36.0</ay>
+        <ay>64.0</ay>
+        <ay>100.0</ay>
+    </y>
+</Function_F_x>

@@ -1,0 +1,60 @@
+.default-color0.chart-series-line{
+    -fx-stroke: orange;
+}
+.default-color0.chart-line-symbol{
+    -fx-background-color: transparent;
+}
+
+.default-color1.chart-series-line{
+    -fx-stroke: yellow;
+}
+.default-color1.chart-line-symbol{
+    -fx-background-color: transparent;
+}
+
+.default-color2.chart-series-line{
+    -fx-stroke: black;
+}
+.default-color2.chart-line-symbol{
+    -fx-background-color: transparent;
+}
+/*
+.default-color3.chart-series-line{
+    -fx-stroke:black;
+}*/
+
+.default-color4.chart-series-line{
+    -fx-stroke: transparent;
+}
+.default-color4.chart-line-symbol{
+    -fx-background-color:orange;
+}
+
+.default-color5.chart-series-line{
+    -fx-stroke: transparent;
+}
+
+.default-color5.chart-line-symbol{
+    -fx-background-color: yellow;
+}
+
+.chart-legend {
+    -fx-background-color: transparent;
+}
+
+.default-color0.chart-legend-item-symbol{
+    -fx-background-color:orange;
+}
+.default-color1.chart-legend-item-symbol{
+    -fx-background-color:yellow;
+}
+.default-color2.chart-legend-item-symbol{
+    -fx-background-color:black;
+}
+
+.default-color4.chart-legend-item-symbol{
+    visibility: false;
+}
+.default-color5.chart-legend-item-symbol{
+    visibility: collapse;
+}

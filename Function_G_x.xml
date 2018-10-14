@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Function_G_x>
+    <x>
+        <ax>-2.0</ax>
+        <ax>0.0</ax>
+        <ax>2.0</ax>
+        <ax>3.0</ax>
+        <ax>4.0</ax>
+        <ax>6.0</ax>
+        <ax>7.0</ax>
+    </x>
+    <y>
+        <ay>2.0</ay>
+        <ay>0.0</ay>
+        <ay>-2.0</ay>
+        <ay>-3.0</ay>
+        <ay>-4.0</ay>
+        <ay>-6.0</ay>
+        <ay>-7.0</ay>
+    </y>
+</Function_G_x>

@@ -1,0 +1,38 @@
+<html>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+</head>
+<body>
+<h2>Report</h2>
+<h2> student of group KH-36E</h2>
+<h2> Shestopalov Vladislav</h2>
+<p>The first function F(x):
+[Point:
+  x=-2.0
+, y=4.0, Point:
+  x=0.0
+, y=0.0, Point:
+  x=2.0
+, y=4.0]
+<p>The second function G(x):
+[Point:
+  x=-2.0
+, y=2.0, Point:
+  x=0.0
+, y=0.0, Point:
+  x=2.0
+, y=-2.0, Point:
+  x=3.0
+, y=-3.0, Point:
+  x=4.0
+, y=-4.0, Point:
+  x=6.0
+, y=-6.0, Point:
+  x=7.0
+, y=-7.0]
+</p></body>
+MaxFunction(F(x)-G(x))=72.0
+
+<p>On the interval [5.0;8.0]
+</p><img src="mySchedule.png"></p></body>
+</html>
